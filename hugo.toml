@@ -1,0 +1,5 @@
+baseURL = 'https://bitgnostiq.dev'
+locale = 'en-us'
+title = 'Bitgnostiq'
+theme = 'kanso'
+Copyright = 'Julian © {year}'

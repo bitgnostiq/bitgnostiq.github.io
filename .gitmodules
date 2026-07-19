@@ -1,0 +1,3 @@
+[submodule "themes/kanso"]
+	path = themes/kanso
+	url = https://github.com/bitgnostiq/kanso
