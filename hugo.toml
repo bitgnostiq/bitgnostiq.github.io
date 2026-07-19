@@ -3,3 +3,44 @@ locale = 'en-us'
 title = 'Bitgnostiq'
 theme = 'kanso'
 Copyright = 'Julian © {year}'
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+    [[menu.main]]
+      name = 'Projects'
+      pageRef = '/projects'
+      weight = 1
+
+    [[menu.main]]
+        name = 'Influences'
+        pageRef = '/influences'
+        weight = 2
+
+
+[params]
+  [params.footer]
+    showThemeAttribution = true
+    showSocialLinks = true
+    socialLinkType = 'icon'
+
+  [[params.footer.social]]
+   text = 'github'
+    title = 'github'
+    link = 'https://github.com/bitgnostiq'
+
+
+  [[params.footer.social]]
+    text = 'itch.io'
+    title = "itchio"
+    link = 'https://enigmatic-softworks.itch.io/'
+
+
+  [[params.footer.social]]
+    text = 'email'
+    title = "email"
+    link = 'mailto:hello@bitgnostiq.dev'
